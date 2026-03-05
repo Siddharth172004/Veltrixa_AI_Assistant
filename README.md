@@ -53,7 +53,7 @@ Veltrixa_AI_Assistant
 
 Clone the repository:
 
-git clone https://github.com/yourusername/Veltrixa_AI_Assistant.git
+git clone https://github.com/Siddharth172004/Veltrixa_AI_Assistant
 
 Go to the project folder:
 
