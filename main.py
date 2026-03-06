@@ -85,9 +85,10 @@ def bot(user,session_id: str):
         input_message_key= "Query",
         history_messages_key="history")
 
-    result = chat_memory.invoke({"context" : context,"Query" : user},config={"configurable" : {"session_id" : session_id}})
-    
-    return result
-
-
-
+    try:
+        result = chat_memory.invoke(
+            {"context" : context,"Query" : user},
+            config={"configurable" : {"session_id" : session_id}})
+        return result
+    except Exception:
+            return "Something went wrong try again later :("

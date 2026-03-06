@@ -7,3 +7,4 @@ openai                    2.24.0
 faiss-cpu                 1.13.2
 python-dotenv             1.2.2
 streamlit                 1.55.0
+sentence-transformers     5.2.3
